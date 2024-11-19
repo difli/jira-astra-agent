@@ -43,6 +43,17 @@
    OPENAI_API_KEY=your_openai_api_key
    ```
 
+5. Ingesting Data
+   The `ingest_filtered_issues.py` script ingests filtered JIRA issue data into Astra DB.
+
+   1. Place your filtered JSON files in the `filtered_issue_data` folder.
+   2. Run the script:
+      ```bash
+      python ingest_filtered_issues.py
+      ```
+
+   The script reads all JSON files ending with `_filtered.json` in the specified folder, extracts the `id` field as the document ID, and inserts the data into Astra DB.
+
 ---
 
 ## Usage
@@ -63,17 +74,6 @@ python app.py
 
 - **Query issues in a project:**  
   *"What are the issues in project TES?"*
-
-### Ingesting Data
-The `ingest_filtered_issues.py` script ingests filtered JIRA issue data into Astra DB.
-
-1. Place your filtered JSON files in the `filtered_issue_data` folder.
-2. Run the script:
-   ```bash
-   python ingest_filtered_issues.py
-   ```
-
-The script reads all JSON files ending with `_filtered.json` in the specified folder, extracts the `id` field as the document ID, and inserts the data into Astra DB.
 
 ---
 
