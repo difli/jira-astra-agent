@@ -98,7 +98,7 @@ JIRA-Astra-Agent/
 ## Tools and Technologies
 
 - **Python**: Core programming language.
-- **Astra DB**: NoSQL database for storing JIRA data.
+- **Astra DB**: The [best hybrid vector database](https://www.datastax.com/resources/report/forrester-wave-names-datastax-leader-vector-databases). Used for storing JIRA data.
 - **LangChain**: Framework for integrating tools and building intelligent workflows.
 - **LangGraph**: State-based framework for orchestrating complex workflows with tools and memory.
 - **OpenAI**: Provides GPT-4 capabilities for query processing.
@@ -124,12 +124,6 @@ Contributions are welcome! To contribute:
    git push origin feature-name
    ```
 5. Create a Pull Request on the main repository.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
