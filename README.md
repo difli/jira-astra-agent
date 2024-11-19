@@ -44,15 +44,14 @@
    ```
 
 5. Ingesting Data
-   The `ingest_filtered_issues.py` script ingests filtered JIRA issue data into Astra DB.
+   The `ingest_filtered_issues.py` script ingests JIRA issue data into Astra DB.
 
-   1. Place your filtered JSON files in the `filtered_issue_data` folder.
-   2. Run the script:
+   1. Run the script:
       ```bash
       python ingest_filtered_issues.py
       ```
 
-   The script reads all JSON files ending with `_filtered.json` in the specified folder, extracts the `id` field as the document ID, and inserts the data into Astra DB.
+   The script reads all JSON files ending with `_filtered.json` in folder `filtered_issue_data`, extracts the `id` field as the document ID, and inserts the data into Astra DB.
 
 ---
 
