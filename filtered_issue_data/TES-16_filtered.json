@@ -1,0 +1,82 @@
+{
+  "id": "10015",
+  "key": "TES-16",
+  "fields": {
+    "issuetype": {
+      "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+      "name": "Story",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-10-15T04:24:32.800+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-06T07:00:32.800+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10001",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "Done",
+      "id": "10001",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "success",
+        "name": "Done"
+      }
+    },
+    "description": null,
+    "summary": "As a team, we can finish the sprint by clicking the cog icon next to the sprint name above the \"To Do\" column then selecting \"Complete Sprint\" >> Try closing this sprint now",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": [
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "Created 28 days 5 hours 14 minutes ago\r\nJoined Sample Sprint 1 21 days 10 hours 20 minutes ago",
+          "created": "2024-11-06T07:00:32.800+0000",
+          "updated": "2024-11-06T07:00:32.800+0000"
+        },
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "Joined Sample Sprint 2 7 days 9 hours 10 minutes ago",
+          "created": "2024-11-06T07:00:32.800+0000",
+          "updated": "2024-11-06T07:00:32.800+0000"
+        },
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "To Do to In Progress 7 days 4 hours 26 minutes ago\r\nIn Progress to Done 6 days 2 hours 38 minutes ago",
+          "created": "2024-11-06T07:00:32.800+0000",
+          "updated": "2024-11-06T07:00:32.800+0000"
+        }
+      ]
+    }
+  }
+}

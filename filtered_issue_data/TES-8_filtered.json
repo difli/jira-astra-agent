@@ -1,0 +1,54 @@
+{
+  "id": "10007",
+  "key": "TES-8",
+  "fields": {
+    "issuetype": {
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "name": "Bug",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-12T09:38:34.218+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-12T09:38:34.218+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "description": "*Estimation of Bugs*\n\nScrum teams do not normally apply story point estimates to bugs because bugs are considered to be part of the ongoing work that the team must deal with (i.e the overhead). If you view the story points completed in a sprint as a measure of progress, then bugs also have no value because they do not deliver anything additional to the customer. \n\nHowever, you can apply estimates to bugs if you wish by configuring the \"Story Points\" field to apply to other Issue Types (by default it only applies to Stories and Epics). Some more information on this is in the [documentation|https://confluence.atlassian.com/display/GH/Story+Point].",
+    "summary": "As a product owner, I'd like to include bugs, tasks and other issue types in my backlog >> Bugs like this one will also appear in your backlog but they are not normally estimated",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": []
+    }
+  }
+}

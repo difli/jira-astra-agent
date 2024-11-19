@@ -1,0 +1,54 @@
+{
+  "id": "10003",
+  "key": "TES-4",
+  "fields": {
+    "issuetype": {
+      "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+      "name": "Story",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-12T09:38:33.825+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-12T09:38:33.825+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "description": "This story is estimated at 5 Story Points (as shown in the \"Estimate\" field at the top right of the Detail View). \n\nTry updating the Story Point estimate to 4 by clicking on the \"Estimate\" then typing.\n\n*Estimating using Story Points*\n\nBecause the traditional process of estimating tasks in weeks or days is often wildly inaccurate, many Scrum teams estimate in Story Points instead. Story Points exist merely as a way to estimate a task's difficulty compared to some other task (for example, a 10-point story would probably take double the effort of a 5-point story). As teams mature with Scrum they tend to achieve a consistent number of Story Points from Sprint to Sprint -- this is termed the team's _velocity_. This allows the Product Owner to use the velocity to predict how many Sprints it will take to deliver parts of the backlog. \n\nMany teams use Planning Poker to achieve consensus on Story Point estimates.\n\n*Using Other Estimation Units*\n\nYou can configure JIRA Software to use time-based estimates if you wish. In the configuration for the board, on the \"Estimation\" tab, select \"Original Time Estimate\" as your Estimation Statistic. If you also wish to track the time used during the Sprint, select \"Remaining Estimate and Time Spent\" to enable Time Tracking in JIRA Software.",
+    "summary": "As a team, I'd like to estimate the effort of a story in Story Points so we can understand the work remaining >> Try setting the Story Points for this story in the \"Estimate\" field",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": []
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "10013",
+  "key": "TES-14",
+  "fields": {
+    "issuetype": {
+      "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+      "name": "Story",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-11T05:28:32.799+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-11T05:28:32.799+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "description": "*Creating Quick Filters*\n\nYou can add your own Quick Filters in the board configuration (select *Board > Configure*)",
+    "summary": "As a user, I can find important items on the board by using the customisable \"Quick Filters\" above >> Try clicking the \"Only My Issues\" Quick Filter above",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": [
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "Joined Sample Sprint 2 1 days 4 hours 10 minutes ago",
+          "created": "2024-11-11T05:28:32.799+0000",
+          "updated": "2024-11-11T05:28:32.799+0000"
+        }
+      ]
+    }
+  }
+}

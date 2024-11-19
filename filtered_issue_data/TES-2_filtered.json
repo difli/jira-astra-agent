@@ -1,0 +1,64 @@
+{
+  "id": "10001",
+  "key": "TES-2",
+  "fields": {
+    "issuetype": {
+      "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+      "name": "Story",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-12T09:38:33.647+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-13T18:28:42.099+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "description": "When you click \"+ Create Issue\" you will be asked for the correct project (select \"testproject\") and Issue Type (select \"Story\").\n\n*About User Stories*\n\nThe Scrum methodology drops traditional software requirement statements in favour of real world problems expressed as User Stories. Stories describe the task a particular user is trying to achieve and its value. They are typically of the form \"As a (role) I want (something) so that (benefit)\". This approach focuses the team on the core user need rather than on implementation details. \n\nStories are \"placeholders for a conversation\" -- they do not need to be especially detailed since it is expected that the team will work together to resolve ambiguity as the story is developed. \n\nStories to be implemented in the future are stored in the Product Backlog. The backlog is ranked by the Product Owner so that the next items to be completed are at the top.",
+    "summary": "As a product owner, I'd like to express work in terms of actual user problems, aka User Stories, and place them in the backlog >> Try creating a new story with the \"+ Create Issue\" button (top right of screen)",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": [
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "test8",
+          "created": "2024-11-13T17:49:14.630+0000",
+          "updated": "2024-11-13T18:28:42.099+0000"
+        }
+      ]
+    }
+  }
+}

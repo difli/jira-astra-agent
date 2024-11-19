@@ -1,0 +1,82 @@
+{
+  "id": "10009",
+  "key": "TES-10",
+  "fields": {
+    "issuetype": {
+      "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+      "name": "Story",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-05T00:28:32.798+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-13T19:51:48.834+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/3",
+      "description": "This issue is being actively worked on at the moment by the assignee.",
+      "iconUrl": "http://localhost:8080/images/icons/statuses/inprogress.png",
+      "name": "In Progress",
+      "id": "3",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "inprogress",
+        "name": "In Progress"
+      }
+    },
+    "description": null,
+    "summary": "As a developer, I can update story and task status with drag and drop (click the triangle at far left of this story to show sub-tasks)",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": [
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "Hello software developers",
+          "created": "2024-11-12T18:13:08.414+0000",
+          "updated": "2024-11-12T18:49:14.716+0000"
+        },
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "test112",
+          "created": "2024-11-13T08:16:28.253+0000",
+          "updated": "2024-11-13T19:51:48.834+0000"
+        },
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "se demo test123",
+          "created": "2024-11-13T09:23:20.015+0000",
+          "updated": "2024-11-13T19:38:55.672+0000"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "10012",
+  "key": "TES-13",
+  "fields": {
+    "issuetype": {
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "name": "Bug",
+      "subtask": false
+    },
+    "project": {
+      "key": "TES",
+      "name": "testproject",
+      "projectTypeKey": "software"
+    },
+    "created": "2024-11-05T00:28:32.799+0000",
+    "priority": {
+      "self": "http://localhost:8080/rest/api/2/priority/3",
+      "iconUrl": "http://localhost:8080/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "updated": "2024-11-13T17:12:23.006+0000",
+    "status": {
+      "self": "http://localhost:8080/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "http://localhost:8080/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "http://localhost:8080/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "description": "*Editing using the Detail View*\n\nMany of the fields in the detail view can be inline edited by simply clicking on them. \n\nFor other fields you can open Quick Edit, select \"Edit\" from the cog drop-down.",
+    "summary": "As a developer, I can update details on an item using the Detail View >> Click the \"TES-13\" link at the top of this card to open the detail view",
+    "creator": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "reporter": {
+      "emailAddress": "dieter.flick@datastax.com",
+      "displayName": "Dieter",
+      "timeZone": "Europe/Berlin"
+    },
+    "comment": {
+      "comments": [
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "Joined Sample Sprint 2 7 days 9 hours 10 minutes ago",
+          "created": "2024-11-05T00:28:32.799+0000",
+          "updated": "2024-11-05T00:28:32.799+0000"
+        },
+        {
+          "author": {
+            "displayName": "Dieter",
+            "emailAddress": "dieter.flick@datastax.com"
+          },
+          "body": "test15\r\n\r\n\u00a0",
+          "created": "2024-11-13T10:04:21.689+0000",
+          "updated": "2024-11-13T17:12:23.006+0000"
+        }
+      ]
+    }
+  }
+}
