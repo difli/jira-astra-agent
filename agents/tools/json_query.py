@@ -15,7 +15,7 @@ class JiraQueryInput(BaseModel):
     project_key: Optional[str] = Field(None, description="The key of the JIRA project (e.g., TES).")
     summary_contains: Optional[str] = Field(None, description="Text that should be contained in the summary field.")
     status: Optional[str] = Field(None, description="Status of the JIRA issue (e.g., 'To Do').")
-    limit: int = Field(10, description="Maximum number of results to return.")
+    limit: int = Field(10, description="Maximum number of results to return. If all is requested then limit is 0")
 
 # Initialize the Astra DB collection
 def initialize_astra_collection():
